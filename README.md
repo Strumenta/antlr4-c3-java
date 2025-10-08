@@ -1,21 +1,36 @@
-# antlr4-c3 The ANTLR4 Code Completion Core
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="">
+    <img src="https://avatars.githubusercontent.com/u/20327314?s=200&v=4" alt="Logo" width="120" height="120">
+  </a>
 
-This is a port of the antlr4-c3 library to Java.
+<h3 align="center">antlr4-c3</h3>
 
-Please see the parent readme.md for an explanation of the library and for examples. 
+<p align="center">
+    The ANTLR4 Code Completion Core
+<br />
+    <br />
+    <a href="https://github.com/Strumenta/antlr-c3-java/issues">Report Bug</a>
+</p>
+
+
+This is a port of the antlr4-c3 library to Java forked from another [project](https://github.com/mike-lischke/antlr4-c3/tree/main) and now being distributed 
+and maintained by Strumenta with the [authorization](https://github.com/mike-lischke/antlr4-c3/issues/175) from the author.
+
+Please see next an explanation of the library and some examples. 
+```
+TO DO
+```
 
 The only changes with respect to the original typescript implementation are:
 
 - use of Java logging framework for debug messages
 - CandidatesCollection has a new field which returns information about encountered preferred rules
 
-### Making releases
+### Making a release
 
-We use the nexus-staging maven plugin.
-
-You will need authorization from nexus to release artifacts.
-
-The nexus-staging maven plugin instructions are here:
-
-http://central.sonatype.org/pages/apache-maven.html
+```
+TO DO
+```
 
