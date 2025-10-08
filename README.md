@@ -11,7 +11,7 @@
     The ANTLR4 Code Completion Core
 <br />
     <br />
-    <a href="https://github.com/Strumenta/antlr-c3-java/issues">Report Bug</a>
+    <a href="https://github.com/Strumenta/antlr4-c3-java/issues">Report Bug</a>
 </p>
 
 
