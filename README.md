@@ -20,17 +20,16 @@
 This is a port of the antlr4-c3 library to Java. 
 
 The original project is [antlr4-c3](https://github.com/mike-lischke/antlr4-c3/tree/main), created by Mike Lischke.
-The author has created the original code for ANTLR4 C3, which is a TypeScript library. The Java port got contributions from Nick Stephen, @kaidjohnson, @rovo98
-, and @vityaman . 
+The author has created the original code for ANTLR4 C3, which is a TypeScript library. The Java port got contributions from Nick Stephen, [@kaidjohnson](https://github.com/kaidjohnson), [@rovo98](https://github.com/rovo98)
+, and [@vityaman](https://github.com/vityaman) . 
 
-We are just maintaining and publishing such port, with the [authorization](https://github.com/mike-lischke/antlr4-c3/issues/175) from the author.
+We are just maintaining the port and publishing such port to Maven Central, with the [authorization](https://github.com/mike-lischke/antlr4-c3/issues/175) from the author.
 
 ## License
 
 This port, as the original code, is available under the MIT license.
 
 ## How to use ANTLR4 C3 in Java
-
 
 Please see next an explanation of the library and some examples. 
 ```
@@ -49,4 +48,3 @@ The only changes with respect to the original typescript implementation are:
 ```
 TO DO
 ```
-
