@@ -5,7 +5,7 @@
  *
  * See LICENSE file for more info.
  */
-package com.vmware.antlr4c3;
+package com.strumenta.antlr4c3;
 
 import java.util.Arrays;
 import java.util.HashSet;
