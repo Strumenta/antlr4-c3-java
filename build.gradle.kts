@@ -14,7 +14,6 @@ java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
     withSourcesJar()
-    withJavadocJar()
 }
 
 repositories {
@@ -115,3 +114,10 @@ release {
         pushToRemote.set("origin")
     }
 }
+
+tasks.named("sourcesJar").configure {
+    dependsOn(tasks.named("generateGrammarSource"))
+}
+//tasks.named("generateMetadataFileForMavenPublication").configure {
+//    dependsOn(tasks.named("plainJavadocJar"))
+//}
