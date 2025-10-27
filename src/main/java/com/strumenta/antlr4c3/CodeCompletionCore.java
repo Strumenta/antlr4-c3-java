@@ -5,7 +5,7 @@
  *
  * See LICENSE file for more info.
  */
-package com.vmware.antlr4c3;
+package com.strumenta.antlr4c3;
 
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.*;
