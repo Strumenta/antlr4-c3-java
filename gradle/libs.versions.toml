@@ -1,0 +1,2 @@
+[plugins]
+vanniktech-publish = { id = "com.vanniktech.maven.publish", version = "0.34.0" }
